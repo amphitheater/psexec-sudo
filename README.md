@@ -1,12 +1,12 @@
 # psexec-sudo
-*Overview*
+**Overview**
+
 Pseudo "sudo" prompt for Windows using psexec64.
-
-
-https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
 
 *Installation*
 **Download Sysinternals psexec**
+https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
+
 Place sudo.cmd and psexec64.exe into %PATH%, execute by running in run prompt. The script will verify administrative credentials, and then will run psexec64.exe with the switches -s and -i.
 ***
      -s         Run the remote process in the System account.
