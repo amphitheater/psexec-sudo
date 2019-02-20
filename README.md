@@ -25,6 +25,7 @@ This is typically how tasks are run from Task Scheduler or remote admin tools, w
 * Correct location of certain logs - for example, for Office installs run from a default Windows account context will store logs in `%LOCALAPPDATA%\Temp`, but will store in `%SYSTEMROOT%\Temp` when run from the SYSTEM context.
 
 **Images**
+
 ![Run](https://i.imgur.com/HUwVHes.png)
 
 ![Prompt](https://i.imgur.com/waeiZNU.png)
