@@ -3,12 +3,15 @@
 
 Quick pseudo "sudo" prompt for Windows using psexec64, allowing access to the `NT AUTHORITY\SYSTEM` account.
 
-*Installation*
+*Installation & Usage*
 
 **Download Sysinternals psexec**
+
 https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
 
-Place sudo.cmd and psexec64.exe into %PATH%, execute by running in run prompt. The script will verify administrative credentials, and then will run psexec64.exe with the switches `-s` `-i` and `cmd.exe`.
+Place `sudo.cmd` and `psexec64.exe` into your `%PATH%`, execute with run prompt.
+
+The script will verify administrative credentials, and then will run psexec64.exe with the switches `-s` `-i` and `cmd.exe`.
 ***
      -s         Run the remote process in the System account.
      -i         Run the program so that it interacts with the desktop of the
