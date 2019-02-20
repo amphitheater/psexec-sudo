@@ -25,6 +25,9 @@ This is typically how tasks are run from Task Scheduler or remote admin tools, w
 * File paths are interpreted correctly (as you are launching from `%SYSTEMROOT%\System32`)
 * Correct location of certain logs - for example, for Office installs run from a default Windows account context will store logs in `%LOCALAPPDATA%\Temp`, but will store in `%SYSTEMROOT%\Temp` when run from the SYSTEM context.
 
+**Images**
+!(https://raw.githubusercontent.com/amphitheater/psexec-sudo/master/cmd_s3R5mAtgZi.png)
+
 Additional references:
 * https://forums.ivanti.com/s/article/How-To-Test-SYSTEM-Account-Permissions
 * https://www.itprotoday.com/compute-engines/psexec
