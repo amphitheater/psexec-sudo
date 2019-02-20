@@ -34,3 +34,4 @@ This is typically how tasks are run from Task Scheduler or remote admin tools, w
 Additional references:
 * https://forums.ivanti.com/s/article/How-To-Test-SYSTEM-Account-Permissions
 * https://www.itprotoday.com/compute-engines/psexec
+* https://docs.microsoft.com/en-us/windows/desktop/Services/localsystem-account
