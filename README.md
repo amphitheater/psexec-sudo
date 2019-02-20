@@ -1,10 +1,19 @@
 # psexec-sudo
-SysInternals PSExec
+*Overview*
+Pseudo "sudo" prompt for Windows using psexec64.
+
+
 https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
 
-Pseudo "sudo" prompt for Windows using PSExec64.
-Place sudo.cmd and psexec64.exe into %PATH%, execute by running in run prompt.
-
+*Installation*
+**Download Sysinternals psexec**
+Place sudo.cmd and psexec64.exe into %PATH%, execute by running in run prompt. The script will verify administrative credentials, and then will run psexec64.exe with the switches -s and -i.
+***
+     -s         Run the remote process in the System account.
+     -i         Run the program so that it interacts with the desktop of the
+                specified session on the remote system. If no session is
+                specified the process runs in the console session.
+***
 psexec is incredibly useful for diagnosing, troubleshooting, and verifying any remote administration tasks that require administrative or alternate credentials.
 
 Additional references:
