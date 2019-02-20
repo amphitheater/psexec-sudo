@@ -4,6 +4,7 @@
 Quick pseudo "sudo" prompt for Windows using psexec64, allowing access to the `NT AUTHORITY\SYSTEM` account.
 
 *Installation*
+
 **Download Sysinternals psexec**
 https://docs.microsoft.com/en-us/sysinternals/downloads/psexec
 
