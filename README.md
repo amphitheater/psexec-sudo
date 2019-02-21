@@ -23,7 +23,7 @@ This is typically how tasks are run from Task Scheduler or remote admin tools, w
 * Access to folders/files
 * File paths are interpreted correctly (as you are launching from `%SYSTEMROOT%\System32`)
 * Correct location of certain logs - for example, for Office installs run from a default Windows account context will store logs in `%LOCALAPPDATA%\Temp`, but will store in `%SYSTEMROOT%\Temp` when run from the SYSTEM context.
-* Additional note: `SYSTEM` does not have any rights to access the network. When network access is required, it will use `DOMAIN\ComputerName$`. Therefore, the necessary permissions for something like a software install share would be to include the `Domain Computers` group.
+* Additional note: `SYSTEM` does not have any rights to access the network. When network access is required, it will use `DOMAIN\ComputerName$`. Therefore, the necessary permissions for something like a software install share would be to include the `Domain Computers` group. See reference below regarding %ComputerName% credential.
 
 **Images**
 
@@ -35,3 +35,4 @@ Additional references:
 * https://forums.ivanti.com/s/article/How-To-Test-SYSTEM-Account-Permissions
 * https://www.itprotoday.com/compute-engines/psexec
 * https://docs.microsoft.com/en-us/windows/desktop/Services/localsystem-account
+* https://docs.microsoft.com/en-us/previous-versions/system-center/configuration-manager-2007/bb680595(v=technet.10)
